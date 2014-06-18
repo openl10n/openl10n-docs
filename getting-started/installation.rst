@@ -39,7 +39,13 @@ Download them using the ``install`` command:
 Compiling the assets
 --------------------
 
-Assets are compiled using `Gulp`_ (which requires `Node`_ and `NPM`_):
+CSS compilation depends on `Sass`_ (which requires Ruby).
+
+.. code-block:: bash
+
+	gem install sass
+
+Assets are compiled using `Gulp`_ (which requires `Node`_ and `NPM`_).
 
 .. code-block:: bash
 
@@ -63,6 +69,7 @@ browser.
 
 .. _Composer: https://getcomposer.org/
 .. _`official Composer documentation`: https://getcomposer.org/doc/00-intro.md#installation-nix
+.. _Sass: http://sass-lang.com/
 .. _Gulp: http://gulpjs.com/
 .. _Node: http://nodejs.org/
 .. _NPM: https://www.npmjs.org/

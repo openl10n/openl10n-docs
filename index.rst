@@ -1,22 +1,22 @@
-.. openl10n documentation master file, created by
-   sphinx-quickstart on Tue Jun 10 11:11:10 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+OpenLocalization (openl10n) Documentation
+=========================================
 
-Welcome to openl10n's documentation!
-====================================
+OpenLocalization is a open-source localization solution, written in PHP and
+Javascript.
 
-Contents:
+.. note::
+
+	This project in currently in active development.
+	You are free to try it, but be warned there is no stable release yet.
+	Use at your own risk but don't hesitate to ask for help.
+
+
+Getting Started
+---------------
 
 .. toctree::
-   :maxdepth: 2
+	:hidden:
 
+   	getting-started/index
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+.. include:: /getting-started/map.rst.inc

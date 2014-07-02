@@ -10,8 +10,8 @@ based on the BackboneJS library.
 
 Both are available in the main repository and installed at the same time.
 
-Installing the Symfony backend
-------------------------------
+Install the Symfony backend
+---------------------------
 
 Installing the backend part of the application implies having ``PHP >= 5.4``.
 
@@ -36,8 +36,31 @@ Download them using the ``install`` command:
 	You may want to install the Composer executable globally.
 	Please refer to the `official Composer documentation`_ for more details.
 
-Compiling the assets
---------------------
+Setup the database
+------------------
+
+When installing PHP dependencies via the ``composer install`` command, a prompt should
+have asked you about application configuration (eg. database credentials).
+If not, then you could fill the configuration file ``app/config/parameters.yml``
+(you can take ``app/config/parameters.yml`` as an example of configuration).
+
+Once the credentials configured, you can create the database schema by running the
+following commands:
+
+.. code-block:: bash
+
+	app/console doctrine:database:create --env=prod --no-debug
+	app/console doctrine:schema:create --env=prod --no-debug
+
+You can also create a new user by running this interactive command:
+
+.. code-block:: bash
+
+	app/console openl10n:user:new
+
+
+Compile the assets
+------------------
 
 CSS compilation depends on `Sass`_ (which requires Ruby).
 

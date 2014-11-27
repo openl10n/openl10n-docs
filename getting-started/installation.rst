@@ -96,3 +96,8 @@ browser.
 .. _Gulp: http://gulpjs.com/
 .. _Node: http://nodejs.org/
 .. _NPM: https://www.npmjs.org/
+
+
+Importing translation
+---------------------
+Install the cli project : https://github.com/openl10n/openl10n-cli/blob/master/README.md and follow the instruction.

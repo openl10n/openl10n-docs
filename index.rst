@@ -1,27 +1,50 @@
 OpenLocalization (openl10n) Documentation
 =========================================
 
-OpenLocalization is a open-source localization solution, written in PHP and
-Javascript.
+OpenLocalization is a open-source localization solution.
+Its goal is to provide a **simple** & **flexible** tool to help you translating any of your applications.
 
-.. warning::
+.. note::
 
-    This project in currently in **active development**.
+    Note that this project in currently in **active development**.
+    However, even if many new features and bug fixes are added, you should be able to use it easily.
+    Migration scripts are provided to upgrade the application seamlessly.
 
-    See the `CHANGELOG`_ file to follow all significant changes on the backend side.
-    Be sure to use the same version between the server and the client(s),
-    and don't hesitate to `ask for help`_.
-
-Getting Started
----------------
+Guide
+-----
 
 .. toctree::
-	:hidden:
+    :maxdepth: 2
 
-   	getting-started/index
+    guide/index
+    guide/installation
+    guide/usage
 
-.. include:: /getting-started/map.rst.inc
+Use cases
+---------
 
-.. _SemVer: http://semver.org/
-.. _Changelog: https://github.com/openl10n/openl10n/blob/master/CHANGELOG.md
-.. _`ask for help`: https://github.com/openl10n/openl10n/issues/new
+`Angular <https://github.com/openl10n/demo-angular>`_
+    Basic example of an Angular application using the **angular-translate**
+    directives.
+
+`Silex <https://github.com/openl10n/demo-silex>`_
+    Example of a Silex application. The architecture of the project is inspired
+    from the **Silex Kitchen Edition**.
+
+`Symfony <https://github.com/openl10n/demo-symfony>`_
+    Example of a typical Symfony application. This is a clone of the **Symfony
+    Standard Edition**, plus additional bundles like the **JMSTranslationBundle**
+    to easily extract translations from templates.
+
+Contributing
+------------
+
+.. toctree::
+    :maxdepth: 1
+
+    contributing/index.rst
+    contributing/backend.rst
+    contributing/frontend.rst
+    contributing/cli.rst
+    contributing/docs.rst
+    contributing/demo.rst

@@ -8,10 +8,7 @@ Javascript.
 
     This project in currently in **active development**.
 
-    Each version might be not backward compatible until a v1.0 is released.
-    This means the v0.x versions won't follow the `SemVer`_ rules.
-    However a `Changelog`_ and some migration scripts will be available across each versions.
-
+    See the `CHANGELOG`_ file to follow all significant changes on the backend side.
     Be sure to use the same version between the server and the client(s),
     and don't hesitate to `ask for help`_.
 

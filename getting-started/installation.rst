@@ -73,8 +73,7 @@ Assets are compiled using `Gulp`_ (which requires `Node`_ and `NPM`_).
 .. code-block:: bash
 
 	npm install
-	npm install -g gulp bower
-	bower install
+	npm install -g gulp
 	gulp build --prod
 
 Accessing the application
